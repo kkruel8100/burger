@@ -100,6 +100,6 @@ All the recommended files and directories from the steps above should look like 
 				* burgers.js
 	* server.js
 	* views
-   	*	index.handlebars
-   	* layouts
-      * main.handlebars
+		* index.handlebars
+		* layouts
+			* main.handlebars
