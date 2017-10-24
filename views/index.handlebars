@@ -5,14 +5,14 @@
       <div class="wishlist">
         {{id}}&nbsp&nbsp{{burger_name}}
       </div>
-      <button class="change-devour" data-id="{{id}}" data-newdevour="{{devour}}">Eat Me!</button>
+      <button class="change-devour" data-id="{{id}}" data-newdevour="{{devoured}}">Eat Me!</button>
       {{/unless}} {{/each}}
     </ul>
   </div>
   <div class="burger right">
     <ul>
       {{#each burgers}} {{#if devoured}}
-      <div class="wishlist">
+      <div class="wishlist" data-id="{{id}}" data-new-devour="{{devoured}}">
         {{id}}&nbsp&nbsp{{burger_name}}
       </div>{{/if}} {{/each}}
     </ul>
